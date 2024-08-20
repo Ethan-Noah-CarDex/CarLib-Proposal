@@ -1,5 +1,3 @@
-# CarLib-Proposal
-
 # [Project Name]
 
 Created by Noah G, Ethan J, .
@@ -17,7 +15,18 @@ This application will use the [name of API] API. Below are the documentation and
 -https://vpic.nhtsa.dot.gov/api/
   -repository of motor vehicles
 
-[If your API requires an API key, say so here.] 
+[If your API requires an API key, say so here.] I don't know
+
+**Example:**
+- https://api.artic.edu/api/v1/artworks
+  - This will fetch an array of artwork objects
+  - For each artwork, I want the `id`, `title`, and `image_id`
+- https://api.artic.edu/api/v1/artworks/{id}
+  - This will fetch a single artwork object
+  - I will use the `id`, `title`, `short_description`, `medium_display`, `place_of_origin` and `image_id`
+- https://api.artic.edu/api/v1/artworks/search?q={query}
+  - This will fetch a list of artworks that relate to the search query
+  - For each artwork, I will use the `id` and `title`
 
 ## 👩‍💻 MVP User Stories & Frontend Routes
 
@@ -79,5 +88,8 @@ To ensure that we can complete all core features of the application in 1 week, w
 Below, you can find wireframes for our project. Each wireframe shows a different page of our application as well as the key components of the application. Details such as specific text values or images are intentionally not included:
 
 [Wireframe for page 1]
+
+[Wireframe for page 2]
+
 
 [Wireframe for page 2]
