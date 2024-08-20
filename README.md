@@ -1,6 +1,6 @@
 # [Project Name]
 
-Created by Noah G, Ethan J, .
+Created by Noah G, Ethan J, 
 
 ## 🚀 Mission statement
 
@@ -17,42 +17,25 @@ This application will use the [name of API] API. Below are the documentation and
 
 [If your API requires an API key, say so here.] I don't know
 
-**Example:**
-- https://api.artic.edu/api/v1/artworks
-  - This will fetch an array of artwork objects
-  - For each artwork, I want the `id`, `title`, and `image_id`
-- https://api.artic.edu/api/v1/artworks/{id}
-  - This will fetch a single artwork object
-  - I will use the `id`, `title`, `short_description`, `medium_display`, `place_of_origin` and `image_id`
-- https://api.artic.edu/api/v1/artworks/search?q={query}
-  - This will fetch a list of artworks that relate to the search query
-  - For each artwork, I will use the `id` and `title`
 
 ## 👩‍💻 MVP User Stories & Frontend Routes
 
 The application will feature the following frontend routes and core features:
 
-* On the `/example` page, users can...
-* On the `/example` page, users can...
-* On the `/example` page, users can...
+* On the `/manufacturers` page, users can view car manufacturers
+* On the `/models` page, users can view models of vechicles
+* On the `/makes` page, users can view models of vehicles
 
-**Example:**
-- On the `/artworks` page, users can view a grid of all artwork
-- On the `/artworks` page, users can click on a piece of art in the grid, taking them to the details page for that piece of art.
-- On the `/artworks/:artworkId` page, users can view additional details for a single piece of art
-- On the `/` page, users can search for artwork titles related to a search term.
 
 ## 🤔 Stretch User Stories
 
 If time permits, the following stretch features will be implemented in order of priority:
 
-* Users will be able to...
-* Users will be able to...
-* Users will be able to...
+* Users will be able to view performance data on the car (horsepower & 0-60)
+* Users will be able to see car prices.
+* Users will be able to favorite the cars they look at and save them for later.
 
-**Example:**
-* Users will be able to save and view favorited artworks using local storage
-* Users will be able to change the color scheme of the website from light mode to dark mode
+
 
 ## 📆 Timeline for reaching MVP in 1 week
 
@@ -88,8 +71,5 @@ To ensure that we can complete all core features of the application in 1 week, w
 Below, you can find wireframes for our project. Each wireframe shows a different page of our application as well as the key components of the application. Details such as specific text values or images are intentionally not included:
 
 [Wireframe for page 1]
-
-[Wireframe for page 2]
-
 
 [Wireframe for page 2]
