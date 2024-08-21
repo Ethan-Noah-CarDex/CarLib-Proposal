@@ -1,10 +1,10 @@
-# [Car Lib]
+# Car Library
 
 Created by Noah G, Ethan J, 
 
 ## 🚀 Mission statement
 
-Our application, CarDex is for [car enthusiasts]. It allows users to look at any car that they wish and few its stats
+Our application, CarDex is for car enthusiasts. It allows users to look at any car that they wish; view its stats and see its prices. This is a fairly large database of vehicles as nuanced as differences in year, model and make.
 
 ## API & React Router
 
@@ -12,10 +12,16 @@ This application will use the [name of API] API. Below are the documentation and
 
 - Link to API documentation: [https://vpic.nhtsa.dot.gov/api/]
 
--https://vpic.nhtsa.dot.gov/api/
-  -repository of motor vehicles
+-/vehicles/GetAllManufacturers?ManufacturerType=Intermediate&page=2
+  -fetches all car manufacturers
 
-[If your API requires an API key, say so here.] I don't know
+-/vehicles/GetMakesForManufacturerAndYear/mer?year=2013&format=json
+  -fetches car makes for manufacturers by the year
+
+-/vehicles/GetModelsForMake/honda?format=json
+  -fetches car models for make
+
+[If your API requires an API key, say so here.] No
 
 
 ## 👩‍💻 MVP User Stories & Frontend Routes
@@ -23,8 +29,8 @@ This application will use the [name of API] API. Below are the documentation and
 The application will feature the following frontend routes and core features:
 
 * On the `/manufacturers` page, users can view car manufacturers
-* On the `/models` page, users can view models of vechicles
-* On the `/makes` page, users can view models of vehicles
+* On the `/models` page, users can view models of the vehicles
+* On the `/makes` page, users can view makes of the vehicles
 
 
 ## 🤔 Stretch User Stories
